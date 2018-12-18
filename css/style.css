@@ -1,0 +1,133 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+;
+}
+/*Menu*/
+header{
+    width: 100%;
+    display: flow-root;
+}
+header ul {
+    float: right;
+    align-items: center;
+    list-style: none;
+    display: inline-flex;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+header ul a {
+    padding-left: 15px;
+}
+.border-radius {
+    background-color: grey;
+    border-radius: 50%;
+}
+.icon-size {
+    width: 20px;
+    height: 20px;
+}
+a {
+    text-decoration: none;
+    opacity: 0,85;
+    font-size: 13px
+}
+a:visited {
+    text-decoration: none;
+    opacity: 0,85;
+    font-size: 13px;
+    color: black;
+    opacity: 0.85;
+}
+a:hover {
+    text-decoration: underline;
+    opacity: 0.85;
+}
+/*main*/
+.logo {
+    display: block;
+    padding-top: 150px;
+    margin: 0 auto;
+    width: 300px;
+}
+.search-bar {
+    width:500px;
+    margin: 0 auto; 
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 484px;
+}
+.searcher {
+    display: flex;
+}
+.searcher img{
+    width: 40px;
+    height: 40px;
+}
+.buscar {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+}
+.button {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 500px;
+    display: block;
+    text-align: -webkit-center;
+    
+}
+.boton {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    height: 30px;
+    color: gray;
+    border: none;
+}
+/*footer*/
+footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+.footer {
+    height: 40px;
+    background-color: rgb(221, 221, 221);
+    border-top: 1px solid rgb(140, 140, 140);
+}
+.footer p {
+    padding-top: 10px;
+    padding-left: 30px;
+    color: gray;
+}
+.footer a {
+    color:gray;
+}
+.footer .fl {
+    float: left;
+    margin-left: 30px;
+
+}
+.footer .fr {
+    float: right;
+    margin-right: 30px;
+}
