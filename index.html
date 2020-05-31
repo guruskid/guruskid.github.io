@@ -1,58 +1,790 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Google</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="stylesheet" type="text/css" href="css\reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css\style.css" />
-    <script src="main.js"></script>
+    <title>Robert - Personal Curriculum Vitae</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="A personal curriculum vitae of Bright Robert" name="description" />
+    <meta content="Robert" name="author" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="">
+
+    <link href="plugins/filter/magnific-popup.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/animated/headline.css" rel="stylesheet" type="text/css" />
+
+    <!-- App css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/icons.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
 </head>
+
 <body>
-        <!-- Header stars here -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">Robert Bright</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <!--end navbar-toggler-->
 
-    <header>
-       <ul>
-           <li><a href="#">Gmail</a></li>
-           <li><a href="#">Images</a></li>
-           <li><a href="#"><img src="img\app-icon.png" alt="Apps"></a></li>
-           <li><a href="#"><img src="img\notification.png" alt="notifications" class="app-icon border-radius icon-size"></a></li>
-           <li><a href="#"><img src="http://res.cloudinary.com/intellitech/image/upload/v1523779243/admiral.jpg" width="40px" alt="" class="border-radius image-size"></a></li>
-       </ul>
-    </header>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="btn btn-blue btn-sm px-4" href="#" id="lnkPrint"><i class="'uil uil-print mr-1 font-16"></i>Print</a>
+                    </li>
+                </ul>
+            </div>
+            <!--end collapse-->
+        </div>
+        <!--end container-->
+    </nav>
+    <!--end nav-->
 
-        <!-- Main section starts here-->
-        <div class="logo">
-            <img src="img\logo.png" alt="logo Google">
-        </div>
-        <div class="search-bar">
-            <div class="searcher">
-                <input type="text" value="" title="Buscar" class="buscar">
-                <img src="img\mic.png" alt="">
+    <div class="main-wraper">
+        <section class="section bg-profile" id="profile_ripple">
+            <div class="zoo-profile">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-print-6 align-self-center mb-3 mb-lg-0">
+                            <div class="zoo-profile-main">
+                                <div class="zoo-profile-main-pic">
+                                    <img src="images/robert.png" width="128px" alt="" class="rounded-circle">
+                                    <span class="zoo-user-message">
+                                            <a href="#contact"><i class="uil uil-comment-dots"></i></a>
+                                        </span>
+                                </div>
+                                <!--end zoo-profile-main-pic-->
+                                <div class="zoo-profile_user-detail">
+                                    <h5 class="zoo-user-name">Robert Bright</h5>
+                                    <p class="cd-headline loading-bar">
+                                        <span class="cd-words-wrapper">
+                                                <b class="is-visible">CEO / Founder</b>
+                                                <b>Devops Engineer</b>
+                                                <b>Software Engineer</b>
+                                                <b>Network Engineer</b>
+                                                <b>Network Administrator</b>
+                                                <b>System Engineer</b>
+                                                <b>System Analysis</b>
+                                            </span>
+                                    </p>
+                                </div>
+                                <!--end zoo-profile_user-detail-->
+                            </div>
+                            <!--end profile-main-pic-->
+                        </div>
+                        <!--end col-->
+                        <div class="col-sm-4 col-print-4 ml-auto">
+                            <ul class="list-unstyled personal-detail">
+                                <li><i class="'uil uil-phone-volume mr-2"></i> <b> Phone </b> : <a href="tel:+2348067013794">+234 806 701 3794</a></li>
+                                <li class="mt-2"><i class="uil uil-envelope mt-2 mr-2"></i> <b> Email </b> : <a href="mailto:bright.robert@intellitech.ng">bright.robert@intellitech.ng</a> <br>
+                                    <a href="mailto:configureall@gmail.com">configureall@gmail.com</a></li>
+                            </ul>
+                            <!--end personal-detail-->
+                            <ul class="list-inline social-icon mb-0">
+                                <li class="list-inline-item">
+                                    <a href="https://www.facebook.com/bright.hercules" class="bg-blue">
+                                        <i class="uil uil-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.twitter.com/OfficiallyKoder" class="bg-secondary">
+                                        <i class="uil uil-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/bright-robert/" class="bg-secondary">
+                                        <i class="uil uil-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.github.com/guruskid" class="bg-info">
+                                        <i class="uil uil-github"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.intellitech.ng" class="bg-info">
+                                        <i class="uil uil-globe"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!--end social-icon-->
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
             </div>
-            <div class="button">
-                <input value="Buscar con Google" type="submit" class="boton">
-                <input value="Me siento con suerte" type="submit" class="boton">
+            <!--end zoo-profile-->
+        </section>
+        <!--end section-->
+
+        <section class="section-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="header-title mb-3">About me !</h4>
+                    </div>
+                    <!--end col-->
+                    <div class="col-sm-6 col-print-6">
+                        <h4 class="text-primary font-weight-bold">I'm Robert Bright</h4>
+                        <p>I am well organized, focused, resourceful, self - directed person who has a passionate commitment to workplace, priorities and solution development, within team and individual environments.
+                        </p>
+                        <button type="button" class="btn btn-sm btn-soft-primary">Download CV</button>
+                    </div>
+                    <!--end col-->
+                    <div class="col-sm-5 col-print-5 offset-lg-1 align-self-center">
+                        <p>
+                            <span class="personal-detail-title">Name</span>
+                            <span class="personal-detail-info">Robert Bright Bassey</span>
+                        </p>
+                        <p>
+                            <span class="personal-detail-title">Date of birth</span>
+                            <span class="personal-detail-info">02 May 19xx</span>
+                        </p>
+                        <p>
+                            <span class="personal-detail-title">Spoken Languages</span>
+                            <span class="personal-detail-info">English, Ibibio, Yoruba and Pidgin</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p>
+                            <span class="personal-detail-title">State of Origin</span>
+                            <span class="personal-detail-info">Akwa Ibom</span>
+                        </p>
+                        <p>
+                            <span class="personal-detail-title">Nationality</span>
+                            <span class="personal-detail-info">Nigeria</span>
+                        </p>
+                        <p>
+                            <span class="personal-detail-title">Interest</span>
+                            <span class="personal-detail-info">Research, Reading, , Technology, Networking,
+                                Dancing, Music, Journey</span>
+                        </p>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
             </div>
-        </div>
-        <!--Footer starts here-->
-    <footer>
-        <div class="footer">
-            <p>Brasil</p>
-        </div>
-        <div class="footer">
-            <div class="fl">
-                <a href="#">Publicidad</a>
-                <a href="">Negocios</a>
-                <a href="">Acerca de</a>
+            <!--end container-->
+        </section>
+        <!--end section-->
+
+        <section class="section-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="header-title mb-3">Education & Skills</h4>
+                    </div>
+                    <!--end col-->
+                    <div class="col-sm-6 col-print-6">
+                        <div class="row">
+                            <div class="col-sm-6 col-print-6">
+                                <div class="resume-icon">
+                                    <i class="uil uil-graduation-hat"></i>
+                                    <h5 class="mt-n2">Education</h5>
+                                </div>
+                                <!--end resume-icon-->
+                                <div class="timeline">
+                                    <div class="time-item">
+                                        <div class="item-info">
+                                            <div class="font-14">1998 - 2005</div>
+                                            <h5 class="my-1 text-dark">Highschool</h5>
+                                            <p>Secondary Education</p>
+                                        </div>
+                                    </div>
+                                    <!--end time-item-->
+                                    <div class="time-item mt-3">
+                                        <div class="item-info">
+                                            <div class="font-14">2005 - 2008</div>
+                                            <h5 class="my-1 text-dark">University</h5>
+                                            <p>Bachelor of Computer Applications</p>
+                                        </div>
+                                    </div>
+                                    <!--end time-item-->
+                                    <div class="time-item  mt-3">
+                                        <div class="item-info">
+                                            <div class="font-14">2008 - 2010</div>
+                                            <h5 class="my-1 text-dark">Master</h5>
+                                            <p>Master of Science</p>
+                                        </div>
+                                    </div>
+                                    <!--end time-item-->
+                                </div>
+                                <!--end timeline-->
+                            </div>
+                            <!--end col-->
+                            <div class="col-sm-6 col-print-6">
+                                <div class="resume-icon">
+                                    <i class="uil uil-suitcase-alt"></i>
+                                    <h5 class="mt-n2">Experience</h5>
+                                </div>
+                                <!--end resume-icon-->
+                                <div class="timeline">
+                                    <div class="time-item">
+                                        <div class="item-info">
+                                            <div class="font-14">2011 - 2013</div>
+                                            <h5 class="my-1 text-dark">Ui/Ux Designer</h5>
+                                            <p>Job Design Company</p>
+                                        </div>
+                                    </div>
+                                    <!--end time-item-->
+                                    <div class="time-item mt-3">
+                                        <div class="item-info">
+                                            <div class="font-14">2013 - 2015</div>
+                                            <h5 class="my-1 text-dark">Senior Developer</h5>
+                                            <p>Apple Co.</p>
+                                        </div>
+                                    </div>
+                                    <!--end time-item-->
+                                    <div class="time-item  mt-3">
+                                        <div class="item-info">
+                                            <div class="font-14">2015 - 2019</div>
+                                            <h5 class="my-1 text-dark">Web Designer - Freelance</h5>
+                                            <p>Mannat-themes</p>
+                                        </div>
+                                    </div>
+                                    <!--end time-item-->
+                                </div>
+                                <!--end timeline-->
+                            </div>
+                            <!--end col-->
+                        </div>
+                        <!--end row-->
+                    </div>
+                    <!--end col-->
+                    <div class="col-sm-6 col-print-6 align-self-center">
+
+                        <div class="skills mt-4">
+                            <div class="skill-box">
+                                <h4 class="skill-title">HTML5 &amp; CSS3 </h4>
+                                <div class="progress-line">
+                                    <span data-percent="78" style="width: 78%;">
+                                            <span class="percent-tooltip">78%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <!--end skill-box-->
+                            <div class="skill-box">
+                                <h4 class="skill-title">Web Design</h4>
+                                <div class="progress-line">
+                                    <span data-percent="90" style="width: 90%;">
+                                            <span class="percent-tooltip">90%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <!--end skill-box-->
+                            <div class="skill-box">
+                                <h4 class="skill-title">UI/UX Design</h4>
+                                <div class="progress-line">
+                                    <span data-percent="80" style="width: 80%;">
+                                            <span class="percent-tooltip">80%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <!--end skill-box-->
+                            <div class="skill-box">
+                                <h4 class="skill-title">Photoshop &amp; Ilistletor </h4>
+                                <div class="progress-line">
+                                    <span data-percent="95" style="width: 95%;">
+                                            <span class="percent-tooltip">95%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <!--end skill-box-->
+                        </div>
+                        <!--end skill-->
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
             </div>
-            <div class="fr">
-                <a href="">Privacidad</a>
-                <a href="">Condiciones</a>
-                <a href="">Preferencias</a>
+            <!--end container-->
+        </section>
+        <!--end section-->
+        <section class="section-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="header-title mb-3">Education & Skills</h4>
+                    </div>
+                    <!--end col-->
+                    <div class="col-md-3 col-sm-3 worksite">
+                        <div class="worksite-line">
+                            <div class="item-info">
+                                <div class="font-14">1998 - 2005</div>
+                                <h5 class="my-1 text-dark">Highschool</h5>
+                                <p>Secondary Education</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 worksite">
+                        <div class="worksite-line">
+                            <div class="item-info">
+                                <div class="font-14">1998 - 2005</div>
+                                <h5 class="my-1 text-dark">Highschool</h5>
+                                <p>Secondary Education</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 worksite">
+                        <div class="worksite-line">
+                            <div class="item-info">
+                                <div class="font-14">1998 - 2005</div>
+                                <h5 class="my-1 text-dark">Highschool</h5>
+                                <p>Secondary Education</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 worksite">
+                        <div class="worksite-line">
+                            <div class="item-info">
+                                <div class="font-14">1998 - 2005</div>
+                                <h5 class="my-1 text-dark">Highschool</h5>
+                                <p>Secondary Education</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!--end row-->
             </div>
-        </div>
-    </footer>
+            <!--end container-->
+        </section>
+        <!--end section-->
+
+        <section class="container work">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="work-line">
+                        <div class="">
+                            <div class="">1998 - 2005</div>
+                            <h5>Laptop</h5>
+                            <p>COMPTIA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="">
+                        <div class="">
+                            <div class="">1998 - 2005</div>
+                            <h5>Laptop</h5>
+                            <p>COMPTIA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="">
+                        <div class="">
+                            <div class="">1998 - 2005</div>
+                            <h5>Laptop</h5>
+                            <p>COMPTIA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="">
+                        <div class="">
+                            <div class="">1998 - 2005</div>
+                            <h5>Laptop</h5>
+                            <p>COMPTIA</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="bg-funfact section-md">
+            <div class="container">
+                <div class="row justify-content-center" id="counter">
+                    <div class="col-sm-4 digit-counter">
+                        <div class="media">
+                            <i class="uil uil-cell text-warning mr-2 align-self-center"></i>
+                            <div class="media-body align-self-center">
+                                <h3 class="mb-1"><span class="counter-value" data-count="1500">10</span>+</h3>
+                                <h5 class="counter-name mt-0">Complated Projects</h5>
+                            </div>
+                        </div>
+                        <!--end media-->
+                    </div>
+                    <!--end col-->
+                    <div class="col-sm-4 digit-counter">
+                        <div class="media">
+                            <i class="uil uil-smile text-success mr-2 align-self-center"></i>
+                            <div class="media-body align-self-center">
+                                <h3 class="mb-1"><span class="counter-value" data-count="16">1</span>k</h3>
+                                <h5 class="counter-name mt-0">Happy Clients</h5>
+                            </div>
+                        </div>
+                        <!--end media-->
+                    </div>
+                    <!--end col-->
+                    <div class="col-sm-4 digit-counter">
+                        <div class="media">
+                            <i class="uil uil-trophy text-pink mr-2 align-self-center"></i>
+                            <div class="media-body align-self-center">
+                                <h3 class="mb-1"><span class="counter-value" data-count="21">1</span></h3>
+                                <h5 class="counter-name mt-0">Awards Received</h5>
+                            </div>
+                        </div>
+                        <!--end media-->
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+        <!--end section-->
+
+        <section class="section-md my-work">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="header-title mb-3">My Works & Review</h4>
+                    </div>
+                    <!--end col-->
+                    <div class="col-sm-6 col-print-6 align-self-center">
+                        <div class="p-4">
+                            <div class="text-center">
+                                <h2><i class="uil uil-feedback text-primary"></i></h2>
+                            </div>
+                            <!--end /div-->
+                            <div id="carouselExampleFade2" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item">
+                                        <div class="text-center">
+                                            <p class="px-4">
+                                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.
+                                            </p>
+                                            <div>
+                                                <img src="images/users/user-10.jpg" alt="" class="rounded-circle thumb-md mb-2">
+                                                <p class="mb-0 text-primary"><b>- Mary K. Myers</b></p>
+                                                <small class="text-muted">CEO Facebook</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--end carousel-item-->
+                                    <div class="carousel-item active">
+                                        <div class="text-center">
+                                            <p class="px-4">
+                                                Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
+                                            </p>
+                                            <div>
+                                                <img src="images/users/user-5.jpg" alt="" class="rounded-circle thumb-md mb-2">
+                                                <p class="mb-0 text-primary"><b>- Michael C. Rios</b></p>
+                                                <small class="text-muted">CEO Facebook</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--end carousel-item-->
+                                    <div class="carousel-item">
+                                        <div class="text-center">
+                                            <p class="px-4">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by passages of injected humour.
+                                            </p>
+                                            <div>
+                                                <img src="images/users/user-4.jpg" alt="" class="rounded-circle thumb-md mb-2">
+                                                <p class="mb-0 text-primary"><b>- Lisa D. Pullen</b></p>
+                                                <small class="text-muted">CEO Facebook</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--end carousel-item-->
+                                </div>
+                                <!--end carousel-inner-->
+                            </div>
+                            <!--end carousel-->
+                        </div>
+                        <!--end /div-->
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <ul class="col container-filter categories-filter mb-4" id="filter">
+                                        <li><a class="categories active" data-filter="*">All</a></li>
+                                        <li><a class="categories" data-filter=".design">UI/UX Design</a></li>
+                                        <li><a class="categories" data-filter=".frontend">Frontend</a></li>
+                                        <li><a class="categories" data-filter=".backend">Backend</a></li>
+                                    </ul>
+                                    <!--end col-->
+                                </div>
+                                <!-- End portfolio  -->
+
+                                <div class="row container-grid nf-col-3  projects-wrapper">
+                                    <div class="col-md-4 col-6 p-0 nf-item design">
+                                        <div class="item-box">
+                                            <a class="cbox-gallary1 mfp-image" href="images/portfolio/1.jpg" title="Apple">
+                                                <img class="item-container " src="images/portfolio/1.jpg" alt="7" />
+                                                <div class="item-mask">
+                                                    <div class="item-caption">
+                                                        <h5 class="text-white">Apple</h5>
+                                                        <p class="text-white">UI/UX Design</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!--end item-box-->
+                                    </div>
+                                    <!--end col-->
+
+                                    <div class="col-md-4 col-6 p-0 nf-item backend">
+                                        <div class="item-box">
+                                            <a class="cbox-gallary1 mfp-image" href="images/portfolio/2.jpg" title="Samsung">
+                                                <img class="item-container mfp-fade" src="images/portfolio/2.jpg" alt="2" />
+                                                <div class="item-mask">
+                                                    <div class="item-caption">
+                                                        <h5 class="text-light">Samsung</h5>
+                                                        <p class="text-light">Android</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!--end item-box-->
+                                    </div>
+                                    <!--end col-->
+
+                                    <div class="col-md-4 col-6 p-0 nf-item design frontend">
+                                        <div class="item-box">
+                                            <a class="cbox-gallary1 mfp-image" href="images/portfolio/3.jpg" title="Facebook">
+                                                <img class="item-container" src="images/portfolio/3.jpg" alt="4" />
+                                                <div class="item-mask">
+                                                    <div class="item-caption">
+                                                        <h5 class="text-light">Facebook</h5>
+                                                        <p class="text-light">Frontend</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!--end item-box-->
+                                    </div>
+                                    <!--end col-->
+
+                                    <div class="col-md-4 col-6 p-0 nf-item design frontend">
+                                        <div class="item-box">
+                                            <a class="cbox-gallary1 mfp-image" href="images/portfolio/5.jpg" title="WhatsApp">
+                                                <img class="item-container" src="images/portfolio/5.jpg" alt="5" />
+                                                <div class="item-mask">
+                                                    <div class="item-caption">
+                                                        <h5 class="text-light">WhatsApp</h5>
+                                                        <p class="text-light">Graphic Design</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!--end item-box-->
+                                    </div>
+                                    <!--end col-->
+
+                                    <div class="col-md-4 col-6 p-0 nf-item  design">
+                                        <div class="item-box">
+                                            <a class="cbox-gallary1 mfp-image" href="images/portfolio/6.jpg" title="Nokia">
+                                                <img class="item-container" src="images/portfolio/6.jpg" alt="6" />
+                                                <div class="item-mask">
+                                                    <div class="item-caption">
+                                                        <h5 class="text-light">Nokia</h5>
+                                                        <p class="text-light">Web Design</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!--end item-box-->
+                                    </div>
+                                    <!--end col-->
+
+                                    <div class="col-md-4 col-6 p-0 nf-item backend frontend">
+                                        <div class="item-box">
+                                            <a class="cbox-gallary1 mfp-image" href="images/portfolio/4.jpg" title="Oppo">
+                                                <img class="item-container" src="images/portfolio/4.jpg" alt="1" />
+                                                <div class="item-mask">
+                                                    <div class="item-caption">
+                                                        <h5 class="text-light">Oppo</h5>
+                                                        <p class="text-light">Backend</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!--end item-box-->
+                                    </div>
+                                    <!--end col-->
+                                </div>
+                                <!--end row-->
+                            </div>
+                            <!--end col-->
+                        </div>
+                        <!--end row-->
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+        <!--end section-->
+
+        <section class="section-md my-clients">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-2 col-6">
+                        <img src="images/brand/1.png" alt="" class="img-fluid ">
+                    </div>
+                    <!--end col-->
+                    <div class="col-md-2 col-6">
+                        <img src="images/brand/2.png" alt="" class="img-fluid ">
+                    </div>
+                    <!--end col-->
+                    <div class="col-md-2 col-6">
+                        <img src="images/brand/3.png" alt="" class="img-fluid ">
+                    </div>
+                    <!--end col-->
+                    <div class="col-md-2 col-6">
+                        <img src="images/brand/4.png" alt="" class="img-fluid ">
+                    </div>
+                    <!--end col-->
+                    <div class="col-md-2 col-6">
+                        <img src="images/brand/5.png" alt="" class="img-fluid ">
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+        <!--end section-->
+
+        <section class="section-md contact-form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <h4 class="header-title mb-3">Contact Me</h4>
+                    </div>
+                    <!--end col-->
+                    <div class="col-sm-4">
+                        <div class="contact-info">
+                            <div class="icon">
+                                <i class='uil uil-phone-volume'></i>
+                            </div>
+                            <div class="content">
+                                <h5>Free Call To Me:</h5>
+                                <span>(+1) 234-567-8910</span>
+                            </div>
+                        </div>
+                        <!--end contact-info-->
+
+                        <div class="contact-info">
+                            <div class="icon">
+                                <i class='uil uil-envelope'></i>
+                            </div>
+                            <div class="content">
+                                <h5>Mail Me:</h5>
+                                <span>Your@example.com</span>
+                            </div>
+                        </div>
+                        <!--end contact-info-->
+
+                        <div class="contact-info">
+                            <div class="icon">
+                                <i class='uil uil-map-marker'></i>
+                            </div>
+                            <div class="content">
+                                <h5>Find Me:</h5>
+                                <span>123 Lorem Ipsum, USA</span>
+                            </div>
+                        </div>
+                        <!--end contact-info-->
+                    </div>
+                    <!--end col-->
+                    <div class="col-sm-8" id="contact">
+                        <div class="contact-form">
+                            <div id="message"></div>
+                            <form method="post" action="php/contact.php" name="contact-form" id="contact-form">
+                                <div class="row">
+                                    <div class="form-group col-md-6">
+                                        <label>Name</label>
+                                        <input type="text" name="name" class="form-control" id="name">
+                                    </div>
+                                    <!--end col-->
+                                    <div class="form-group col-md-6">
+                                        <label>Email address</label>
+                                        <input type="email" name="email" class="form-control" id="email">
+                                    </div>
+                                    <!--end col-->
+                                    <div class="form-group col-md-12">
+                                        <label>Message</label>
+                                        <textarea rows="4" name="message" class="form-control" id="comments"></textarea>
+                                    </div>
+                                    <!--end col-->
+                                    <div class="form-group col-md-12">
+                                        <input type="submit" value="Submit now" name="submit" id="submit" class="btn btn-primary px-5 py-2">
+                                        <div id="simple-msg"></div>
+                                    </div>
+                                    <!--end col-->
+                                </div>
+                                <!--end row-->
+                            </form>
+                            <!--end form-->
+                        </div>
+                        <!--end contact-form-->
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+        <!--end section-->
+
+        <section class="section-md thanks-text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-center">Thank you !</h3>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+        <!--end section-->
+
+        <footer class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <p class="copyright mb-0 py-4">© 2019. Design By Mannat-Theme</p>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </footer>
+        <!--end footer-area-->
+    </div>
+    <!--end main-wraper-->
+
+
+    <!-- jQuery  -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="plugins/ripple/jquery.ripples.js"></script>
+    <script src="plugins/counter/jquery.counterup.min.js"></script>
+    <script src="plugins/counter/waypoints.min.js"></script>
+    <script src="plugins/filter/isotope.pkgd.min.js"></script>
+    <script src="plugins/filter/masonry.pkgd.min.js"></script>
+    <script src="plugins/filter/jquery.magnific-popup.min.js"></script>
+    <script src="plugins/animated/headline.js"></script>
+
+    <!-- App js -->
+    <script src="js/app.js"></script>
+
 </body>
+
 </html>
